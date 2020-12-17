@@ -1,0 +1,58 @@
+
+1. Fetch values from web elements
+2. Validate if bill amount and service charge has been entered or not. If not show an alert saying "Please enter values".
+3. For number of people if nothing is entered or a negative value is entered assume that there is only one person paying the bill.
+4. Calculate tip
+5. Calculate Total bill
+6. Display tip on html page
+7. Display total on html page
+8. Make an XHR request to "https://swapi.dev/api/people/20"
+9. Alert(`You have won a ${nameOFCharacterHere}` toy`).
+
+For instance, if you get "Jek Tono Porkins" in name key of the received JSON you should display:
+You have won a Jek Tono Porkins toy.
+using an alert.
+
+All 9 steps above value 3 points each.
+3 points for documentation and conventions.
+
+The exam is of total 30 points.
+
+Do not forget to console log your errors and document all variables and functions.
+
+
+JSON Format:
+
+{
+	"name": "Luke Skywalker",
+	"height": "172",
+	"mass": "77",
+	"hair_color": "blond",
+	"skin_color": "fair",
+	"eye_color": "blue",
+	"birth_year": "19BBY",
+	"gender": "male",
+	"homeworld": "https://swapi.co/api/planets/1/",
+	"films": [
+		"https://swapi.co/api/films/2/",
+		"https://swapi.co/api/films/6/",
+		"https://swapi.co/api/films/3/",
+		"https://swapi.co/api/films/1/",
+		"https://swapi.co/api/films/7/"
+	],
+	"species": [
+		"https://swapi.co/api/species/1/"
+	],
+	"vehicles": [
+		"https://swapi.co/api/vehicles/14/",
+		"https://swapi.co/api/vehicles/30/"
+	],
+	"starships": [
+		"https://swapi.co/api/starships/12/",
+		"https://swapi.co/api/starships/22/"
+	],
+	"created": "2014-12-09T13:50:51.644000Z",
+	"edited": "2014-12-20T21:17:56.891000Z",
+	"url": "https://swapi.co/api/people/1/"
+}
+
