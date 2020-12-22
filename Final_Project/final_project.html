@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="final_project.css">
+    <title>Document</title>
+</head>
+<body>
+    <main id="mainBackground">
+        <div id="mainBody">
+            <h1 id="loginHeader"> Login </h1>
+
+            <div id="inputBox">
+                <label for="emailAdd"><b>Email Address</b></label><br>
+                <input type="text" id="inputEmail" name="emailAdd"><br>
+                <label for="pswd"><b>Password</b></label><br>
+                <input type="password" id="inputPassword" name="pswd"><br>
+                <button id="loginBtn" onclick="loginAction()">Login <i class="fas fa-arrow-right"></i></button>
+            </div>
+            
+            <div id="weatherBox">
+                <h3>Weather in Montreal for the next 5 days!</h3>
+                <ul id="listDays">
+
+                </ul>
+            </div>
+            
+            <div id="todayInfo">
+                <h3>Today's message: <a id="initLink" href="website">"in init"</a></h3>
+                <h3>Today's date: <span id="todayDate"></span></h3>
+                <h3>Time now: <span id="timeNow" onload="showTime()"></span></h3>
+            </div>
+
+            <div id="outputBox">
+
+            </div>
+
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/acc493605b.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="final_project.js"></script>
+</body>
+</html>

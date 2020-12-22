@@ -1,0 +1,48 @@
+body {
+    background-color: lightgrey;
+}
+
+#mainBackground {
+    background-color: white;
+    max-width: 400px;
+    height: auto;
+    padding: 30px 20px;
+    margin: auto;
+}
+
+#mainBody {
+    border: 2px solid grey;
+    max-width: 300px;
+    height: auto;
+    padding: 10px 30px;
+    margin: 50px 50px;
+}
+
+#loginHeader {
+    color: rgb(110, 183, 207);
+    width:80px;
+    margin-top: -33px;
+    margin-left:10px;
+    background:white;
+}
+
+input {
+    border: 1px solid grey;
+}
+
+#weatherBox {
+    display: none;
+}
+
+#initLink {
+    color: green;
+}
+
+#outputBox {
+    color: red;
+    font-weight: bolder;
+}
+
+.weatherPara {
+    margin: 1px 0;
+}
